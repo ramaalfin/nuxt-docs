@@ -12,10 +12,10 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt Docs Template'
+    siteName: 'Nuxt 4 / Vue 3 Principal FE Mastery'
   },
   header: {
-    title: '',
+    title: 'Principal FE Mastery',
     to: '/',
     logo: {
       alt: '',

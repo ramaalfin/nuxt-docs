@@ -12,19 +12,19 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+The Path to [Principal Frontend Engineer]{.text-primary}.
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+Master scalable architecture, strategic decision-making, and engineering leadership. Focus on Nuxt 4, Vue 3, and modern web ecosystem.
 
 #links
   :::u-button
   ---
-  to: /getting-started
+  to: /4.architecture
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Start Learning
   :::
 
   :::u-button
@@ -72,6 +72,84 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
 ::
 
 ::u-page-section{class="dark:bg-neutral-950"}
+#title
+Mastery Pillars
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-server
+  to: /4.architecture
+  ---
+  #title
+  Scalable Architecture
+
+  #description
+  System design for 10M+ users, Nuxt Server Components, Micro-frontends, and Edge rendering.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-lightbulb
+  to: /5.strategy
+  ---
+  #title
+  Strategic Decisions
+
+  #description
+  RFC processes, Tech Radars, and Architecture Decision Records (ADRs) for large codebases.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-users
+  to: /6.leadership
+  ---
+  #title
+  Engineering Leadership
+
+  #description
+  Mentoring, engineering ladders, team topologies, and establishing healthy code review cultures.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-rocket
+  to: /7.production
+  ---
+  #title
+  Production Systems
+
+  #description
+  Shipping with 99.9% reliability, CI/CD pipelines, advanced testing, and observability.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-cpu
+  to: /8.innovation
+  ---
+  #title
+  Innovation & Emerging Tech
+
+  #description
+  WebAssembly in Vue, AI agent integrations, Nuxt LLMs, and Vercel AI SDK.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-folder-git-2
+  to: /7.projects
+  ---
+  #title
+  Projects & Deliverables
+
+  #description
+  Completed projects like the highly robust, Zod-powered Type-Safe Form Library.
+  :::
+::
+
+::u-page-section{class="dark:bg-neutral-900"}
 #title
 Powered by Nuxt UI components
 
