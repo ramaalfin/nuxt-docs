@@ -52,19 +52,12 @@ const links = computed(() => {
 
 <template>
   <UPage v-if="page">
-    <UPageHeader
-      :title="page.title"
-      :description="page.description"
-      :headline="headline"
-    >
-      <template #links>
-        <UButton
-          v-for="(link, index) in page.links"
-          :key="index"
-          v-bind="link"
-        />
-
-        <PageHeaderLinks />
+    <UPageHeader>
+      <template #headline>
+        <div class="w-full flex items-center justify-between">
+          <span>{{ headline }}</span>
+          <PageHeaderLinks />
+        </div>
       </template>
     </UPageHeader>
 
