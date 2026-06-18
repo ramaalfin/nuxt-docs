@@ -20,7 +20,7 @@ Master scalable architecture, strategic decision-making, and engineering leaders
 #links
   :::u-button
   ---
-  to: /4.architecture
+  to: /getting-started
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
